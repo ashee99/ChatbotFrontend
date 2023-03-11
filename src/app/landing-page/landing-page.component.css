@@ -1,0 +1,274 @@
+@import url("../../assets/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("../../assets/css/bootstrap.min.css");
+@import url("../../assets/slick/slick.css");
+@import url("../../assets/slick/slick-theme.css");
+@import url("../../assets/css/datepicker.css");
+@import url("../../assets/css/tooplate-style.css");
+
+
+    .LGLeeN-keyboard-shortcuts-view {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex
+    }
+
+    .LGLeeN-keyboard-shortcuts-view table,
+    .LGLeeN-keyboard-shortcuts-view tbody,
+    .LGLeeN-keyboard-shortcuts-view td,
+    .LGLeeN-keyboard-shortcuts-view tr {
+      background: inherit;
+      border: none;
+      margin: 0;
+      padding: 0
+    }
+
+    .LGLeeN-keyboard-shortcuts-view table {
+      display: table
+    }
+
+    .LGLeeN-keyboard-shortcuts-view tr {
+      display: table-row
+    }
+
+    .LGLeeN-keyboard-shortcuts-view td {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: table-cell;
+      color: #000;
+      padding: 6px;
+      vertical-align: middle;
+      white-space: nowrap
+    }
+
+    .LGLeeN-keyboard-shortcuts-view td .VdnQmO-keyboard-shortcuts-view--shortcut-key {
+      background-color: #e8eaed;
+      border-radius: 2px;
+      border: none;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: inherit;
+      display: inline-block;
+      font-family: Google Sans Text, Roboto, Arial, sans-serif;
+      line-height: 16px;
+      margin: 0 2px;
+      min-height: 20px;
+      min-width: 20px;
+      padding: 2px 4px;
+      position: relative;
+      text-align: center
+    }
+  
+    .gm-control-active>img {
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      display: none;
+      left: 50%;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%)
+    }
+
+    .gm-control-active>img:nth-child(1) {
+      display: block
+    }
+
+    .gm-control-active:focus>img:nth-child(1),
+    .gm-control-active:hover>img:nth-child(1),
+    .gm-control-active:active>img:nth-child(1),
+    .gm-control-active:disabled>img:nth-child(1) {
+      display: none
+    }
+
+    .gm-control-active:focus>img:nth-child(2),
+    .gm-control-active:hover>img:nth-child(2) {
+      display: block
+    }
+
+    .gm-control-active:active>img:nth-child(3) {
+      display: block
+    }
+
+    .gm-control-active:disabled>img:nth-child(4) {
+      display: block
+    }
+
+    sentinel {}
+
+
+    .gm-ui-hover-effect {
+      opacity: .6
+    }
+
+    .gm-ui-hover-effect:hover {
+      opacity: 1
+    }
+
+    .gm-ui-hover-effect>span {
+      background-color: #000
+    }
+
+    @media (forced-colors:active),
+    (prefers-contrast:more) {
+      .gm-ui-hover-effect>span {
+        background-color: ButtonText
+      }
+    }
+
+    sentinel {}
+
+
+
+    
+ 
+  .gm-style .gm-style-cc a,
+  .gm-style .gm-style-cc button,
+  .gm-style .gm-style-cc span,
+  .gm-style .gm-style-mtc div {
+    font-size: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+  .gm-style .gm-style-cc a,
+  .gm-style .gm-style-cc button,
+  .gm-style .gm-style-cc span {
+    outline-offset: 3px
+  }
+
+  sentinel {}
+
+  @media print {
+
+    .gm-style .gmnoprint,
+    .gmnoprint {
+      display: none
+    }
+  }
+
+  @media screen {
+
+    .gm-style .gmnoscreen,
+    .gmnoscreen {
+      display: none
+    }
+  }
+
+  .dismissButton {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px
+  }
+
+  .dismissButton:hover {
+    background-color: rgba(66, 133, 244, .04);
+    border: 1px solid #d2e3fc
+  }
+
+  .dismissButton:focus {
+    background-color: rgba(66, 133, 244, .12);
+    border: 1px solid #d2e3fc;
+    outline: 0
+  }
+
+  .dismissButton:focus:not(:focus-visible) {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    outline: none
+  }
+
+  .dismissButton:focus-visible {
+    background-color: rgba(66, 133, 244, .12);
+    border: 1px solid #d2e3fc;
+    outline: 0
+  }
+
+  .dismissButton:hover:focus {
+    background-color: rgba(66, 133, 244, .16);
+    border: 1px solid #d2e2fd
+  }
+
+  .dismissButton:hover:focus:not(:focus-visible) {
+    background-color: rgba(66, 133, 244, .04);
+    border: 1px solid #d2e3fc
+  }
+
+  .dismissButton:hover:focus-visible {
+    background-color: rgba(66, 133, 244, .16);
+    border: 1px solid #d2e2fd
+  }
+
+  .dismissButton:active {
+    background-color: rgba(66, 133, 244, .16);
+    border: 1px solid #d2e2fd;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    -moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15)
+  }
+
+  .dismissButton:disabled {
+    background-color: #fff;
+    border: 1px solid #f1f3f4;
+    color: #3c4043
+  }
+
+  sentinel {}
+
+  .gm-style-moc {
+    background-color: rgba(0, 0, 0, .45);
+    pointer-events: none;
+    text-align: center;
+    -webkit-transition: opacity ease-in-out;
+    -o-transition: opacity ease-in-out;
+    transition: opacity ease-in-out
+  }
+
+  .gm-style-mot {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%)
+  }
+
+  sentinel {}
+
+  .gm-style img {
+    max-width: none;
+  }
+
+  .gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+  }
+
+
+  
+
+
+
+
+ 
+
